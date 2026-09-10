@@ -1,0 +1,20 @@
+{
+  "model_version": "1.0.0",
+  "features": [
+    "annual_income",
+    "loan_amount",
+    "employment_years",
+    "credit_history_months",
+    "debt_to_income",
+    "previous_defaults"
+  ],
+  "model_type": "LogisticRegression",
+  "train_shape": [
+    30,
+    6
+  ],
+  "test_shape": [
+    8,
+    6
+  ]
+}
